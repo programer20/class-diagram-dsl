@@ -9,9 +9,29 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 
 public final class LanguageConceptSwitch {
   private final LanguageConceptIndex myIndex;
+  public static final int Attribute = 0;
+  public static final int ClassDiagram = 1;
+  public static final int ClassDiagramElement = 2;
+  public static final int ClassDiagramRepository = 3;
+  public static final int ClassElement = 4;
+  public static final int ClassElementMember = 5;
+  public static final int InterfaceElement = 6;
+  public static final int Method = 7;
+  public static final int MethodArgument = 8;
+  public static final int RelationElement = 9;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x1c18981f779a4434L, 0xa3572f05772a8d5eL);
+    builder.put(0x5bec2edb52c5a5adL, Attribute);
+    builder.put(0x2821a260f6f18a77L, ClassDiagram);
+    builder.put(0x2821a260f6f23d2aL, ClassDiagramElement);
+    builder.put(0x2821a260f6f18a76L, ClassDiagramRepository);
+    builder.put(0x5bec2edb52c440dcL, ClassElement);
+    builder.put(0x5bec2edb52c5a558L, ClassElementMember);
+    builder.put(0x5bec2edb52c61d2dL, InterfaceElement);
+    builder.put(0x5bec2edb52c61d43L, Method);
+    builder.put(0x5bec2edb52c6738eL, MethodArgument);
+    builder.put(0x5bec2edb52cfeda0L, RelationElement);
     myIndex = builder.seal();
   }
 

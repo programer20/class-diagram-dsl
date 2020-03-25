@@ -1,3 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-2slmd6t129jiftqv5pn1rljb2968stm" />
+<product version="3" modelHash="-92pbzr7xumo4dwwlujs3da5rzc4ajxo">
+  <files names="Attribute_Editor.java:Attribute_EditorBuilder_a.java:ClassDiagramRepository_Editor.java:ClassDiagramRepository_EditorBuilder_a.java:ClassDiagram_Editor.java:ClassDiagram_EditorBuilder_a.java:ClassElement_Editor.java:ClassElement_EditorBuilder_a.java:EditorAspectDescriptorImpl.java:InterfaceElement_Editor.java:InterfaceElement_EditorBuilder_a.java:MethodArgument_Editor.java:MethodArgument_EditorBuilder_a.java:Method_Editor.java:Method_EditorBuilder_a.java:RelationElement_Editor.java:RelationElement_EditorBuilder_a.java" />
+</product>
 
