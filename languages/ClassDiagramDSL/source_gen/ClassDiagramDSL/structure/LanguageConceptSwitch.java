@@ -15,10 +15,13 @@ public final class LanguageConceptSwitch {
   public static final int ClassDiagramRepository = 3;
   public static final int ClassElement = 4;
   public static final int ClassElementMember = 5;
-  public static final int InterfaceElement = 6;
-  public static final int Method = 7;
-  public static final int MethodArgument = 8;
-  public static final int RelationElement = 9;
+  public static final int EnumElement = 6;
+  public static final int EnumValue = 7;
+  public static final int IRelationEntity = 8;
+  public static final int InterfaceElement = 9;
+  public static final int Method = 10;
+  public static final int MethodArgument = 11;
+  public static final int RelationElement = 12;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x1c18981f779a4434L, 0xa3572f05772a8d5eL);
@@ -28,6 +31,9 @@ public final class LanguageConceptSwitch {
     builder.put(0x2821a260f6f18a76L, ClassDiagramRepository);
     builder.put(0x5bec2edb52c440dcL, ClassElement);
     builder.put(0x5bec2edb52c5a558L, ClassElementMember);
+    builder.put(0x46a8aa102bf53eceL, EnumElement);
+    builder.put(0x46a8aa102bf60fcaL, EnumValue);
+    builder.put(0x46a8aa102bf1e941L, IRelationEntity);
     builder.put(0x5bec2edb52c61d2dL, InterfaceElement);
     builder.put(0x5bec2edb52c61d43L, Method);
     builder.put(0x5bec2edb52c6738eL, MethodArgument);

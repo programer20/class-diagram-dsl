@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
   <dependency className="ClassDiagramDSL.Language">
+    <classNode dependClassName="ClassDiagramDSL.constraints.ConstraintsAspectDescriptor" />
     <classNode dependClassName="ClassDiagramDSL.editor.EditorAspectDescriptorImpl" />
+    <classNode dependClassName="ClassDiagramDSL.intentions.IntentionsDescriptor" />
     <classNode dependClassName="ClassDiagramDSL.structure.ConceptPresentationAspectImpl" />
     <classNode dependClassName="ClassDiagramDSL.structure.StructureAspectDescriptor" />
     <classNode dependClassName="java.lang.Class" />
@@ -9,8 +11,10 @@
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.Collection" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.openapi.intentions.IntentionAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.adapter.ids.SLanguageId" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ConceptPresentationAspect" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.ConstraintsAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ILanguageAspect" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.StructureAspectDescriptor" />
     <classNode dependClassName="org.jetbrains.mps.openapi.language.SLanguage" />

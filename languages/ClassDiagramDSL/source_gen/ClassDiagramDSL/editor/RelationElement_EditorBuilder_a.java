@@ -74,10 +74,10 @@ import org.jetbrains.mps.openapi.language.SConcept;
       editorCell.addEditorCell(createConstant_2());
     }
     editorCell.addEditorCell(createProperty_3());
-    editorCell.addEditorCell(createRefCell_1());
-    if (nodeCondition_h2xy2e_a8a()) {
+    if (nodeCondition_h2xy2e_a7a()) {
       editorCell.addEditorCell(createConstant_3());
     }
+    editorCell.addEditorCell(createRefCell_1());
     if (nodeCondition_h2xy2e_a9a()) {
       editorCell.addEditorCell(createConstant_4());
     }
@@ -93,7 +93,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
   private boolean nodeCondition_h2xy2e_a5a() {
     return isNotEmptyString(SPropertyOperations.getString(myNode, PROPS.cardinality2$9o_J));
   }
-  private boolean nodeCondition_h2xy2e_a8a() {
+  private boolean nodeCondition_h2xy2e_a7a() {
     return isNotEmptyString(SPropertyOperations.getString(myNode, PROPS.cardinality2$9o_J));
   }
   private boolean nodeCondition_h2xy2e_a9a() {
@@ -284,6 +284,15 @@ import org.jetbrains.mps.openapi.language.SConcept;
       getCellFactory().popCellContext();
     }
   }
+  private EditorCell createConstant_3() {
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "\"");
+    editorCell.setCellId("Constant_h2xy2e_h0");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.PUNCTUATION_LEFT, true);
+    editorCell.getStyle().putAll(style);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
   private EditorCell createRefCell_1() {
     final SReferenceLink referenceLink = LINKS.class2$qtLG;
     SReferenceCellProvider provider = new SReferenceCellProvider(getNode(), referenceLink, getEditorContext()) {
@@ -366,15 +375,6 @@ import org.jetbrains.mps.openapi.language.SConcept;
         getCellFactory().popCellContext();
       }
     }
-  }
-  private EditorCell createConstant_3() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "\"");
-    editorCell.setCellId("Constant_h2xy2e_i0");
-    Style style = new StyleImpl();
-    style.set(StyleAttributes.PUNCTUATION_LEFT, true);
-    editorCell.getStyle().putAll(style);
-    editorCell.setDefaultText("");
-    return editorCell;
   }
   private EditorCell createConstant_4() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, ":");

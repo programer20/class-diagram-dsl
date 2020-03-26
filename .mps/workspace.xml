@@ -7,8 +7,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc18f0e4-585c-4705-b4cb-22d3a17e3014" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/constraints/EnumValue_Constraints$CONCEPTS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/constraints/EnumValue_Constraints$Name_Property.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/constraints/EnumValue_Constraints$PROPS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/constraints/EnumValue_Constraints.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/editor/EnumElement_Editor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/editor/EnumElement_EditorBuilder_a$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/editor/EnumElement_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/editor/EnumElement_EditorBuilder_a$LINKS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/editor/EnumElement_EditorBuilder_a$PROPS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/editor/EnumElement_EditorBuilder_a$valuesListHandler_6yr5qw_b1a.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/editor/EnumElement_EditorBuilder_a.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/editor/EnumValue_Editor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/editor/EnumValue_EditorBuilder_a$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/editor/EnumValue_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/editor/EnumValue_EditorBuilder_a$PROPS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/editor/EnumValue_EditorBuilder_a.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/intentions/IntentionsDescriptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/intentions/MakeClassAbstract_Intention$IntentionImplementation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/intentions/MakeClassAbstract_Intention$PROPS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/intentions/MakeClassAbstract_Intention.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/intentions/trace.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/models/ClassDiagramDSL.intentions.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen.caches/ClassDiagramDSL/intentions/dependencies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen.caches/ClassDiagramDSL/intentions/generated" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen/ClassDiagramDSL/constraints/EnumValue_Constraints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen/ClassDiagramDSL/editor/EnumElement_Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen/ClassDiagramDSL/editor/EnumElement_EditorBuilder_a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen/ClassDiagramDSL/editor/EnumValue_Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen/ClassDiagramDSL/editor/EnumValue_EditorBuilder_a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen/ClassDiagramDSL/intentions/IntentionsDescriptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen/ClassDiagramDSL/intentions/MakeClassAbstract_Intention.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen/ClassDiagramDSL/intentions/trace.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/ClassDiagramDSL.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/ClassDiagramDSL.mpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/Language.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/Language.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/constraints/ConstraintsAspectDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/constraints/ConstraintsAspectDescriptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/constraints/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/constraints/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/constraints/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/constraints/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/editor/ClassElement_EditorBuilder_a$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/editor/ClassElement_EditorBuilder_a$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/editor/ClassElement_EditorBuilder_a$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/editor/ClassElement_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/editor/ClassElement_EditorBuilder_a$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/editor/ClassElement_EditorBuilder_a$LINKS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/editor/ClassElement_EditorBuilder_a$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/editor/ClassElement_EditorBuilder_a$PROPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/editor/ClassElement_EditorBuilder_a$classElementMembersListHandler_7oox5g_b1a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/editor/ClassElement_EditorBuilder_a$classElementMembersListHandler_7oox5g_b1a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/editor/ClassElement_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/editor/ClassElement_EditorBuilder_a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/editor/EditorAspectDescriptorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/editor/EditorAspectDescriptorImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/editor/RelationElement_EditorBuilder_a$6$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/editor/RelationElement_EditorBuilder_a$6$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/editor/RelationElement_EditorBuilder_a$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/editor/RelationElement_EditorBuilder_a$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/editor/RelationElement_EditorBuilder_a$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/editor/RelationElement_EditorBuilder_a$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/editor/RelationElement_EditorBuilder_a$Inline_Builder1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/editor/RelationElement_EditorBuilder_a$Inline_Builder1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/editor/RelationElement_EditorBuilder_a$Inline_Builder1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/editor/RelationElement_EditorBuilder_a$Inline_Builder1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/editor/RelationElement_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/editor/RelationElement_EditorBuilder_a.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/editor/trace.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/structure/ConceptPresentationAspectImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/structure/ConceptPresentationAspectImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/structure/LanguageConceptSwitch.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/structure/LanguageConceptSwitch.class" afterDir="false" />
@@ -16,16 +65,25 @@
       <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/structure/trace.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/classes_gen/ClassDiagramDSL/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/models/ClassDiagramDSL.constraints.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/models/ClassDiagramDSL.constraints.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/models/ClassDiagramDSL.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/models/ClassDiagramDSL.editor.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/models/ClassDiagramDSL.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/models/ClassDiagramDSL.structure.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/sandbox/models/ClassDiagramDSL.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/sandbox/models/ClassDiagramDSL.sandbox.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/sandbox/source_gen.caches/ClassDiagramDSL/sandbox/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/sandbox/source_gen.caches/ClassDiagramDSL/sandbox/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen.caches/ClassDiagramDSL/constraints/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen.caches/ClassDiagramDSL/constraints/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen.caches/ClassDiagramDSL/constraints/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen.caches/ClassDiagramDSL/constraints/generated" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen.caches/ClassDiagramDSL/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen.caches/ClassDiagramDSL/dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen.caches/ClassDiagramDSL/editor/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen.caches/ClassDiagramDSL/editor/dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen.caches/ClassDiagramDSL/editor/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen.caches/ClassDiagramDSL/editor/generated" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen.caches/ClassDiagramDSL/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen.caches/ClassDiagramDSL/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen.caches/ClassDiagramDSL/structure/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen.caches/ClassDiagramDSL/structure/dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen.caches/ClassDiagramDSL/structure/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen.caches/ClassDiagramDSL/structure/generated" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen/ClassDiagramDSL/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen/ClassDiagramDSL/Language.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen/ClassDiagramDSL/constraints/ConstraintsAspectDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen/ClassDiagramDSL/constraints/ConstraintsAspectDescriptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen/ClassDiagramDSL/constraints/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen/ClassDiagramDSL/constraints/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen/ClassDiagramDSL/constraints/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen/ClassDiagramDSL/constraints/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen/ClassDiagramDSL/editor/ClassElement_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen/ClassDiagramDSL/editor/ClassElement_EditorBuilder_a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen/ClassDiagramDSL/editor/EditorAspectDescriptorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen/ClassDiagramDSL/editor/EditorAspectDescriptorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen/ClassDiagramDSL/editor/RelationElement_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen/ClassDiagramDSL/editor/RelationElement_EditorBuilder_a.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen/ClassDiagramDSL/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen/ClassDiagramDSL/editor/trace.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen/ClassDiagramDSL/structure/ConceptPresentationAspectImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen/ClassDiagramDSL/structure/ConceptPresentationAspectImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen/ClassDiagramDSL/structure/LanguageConceptSwitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ClassDiagramDSL/source_gen/ClassDiagramDSL/structure/LanguageConceptSwitch.java" afterDir="false" />
@@ -45,7 +103,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="8704121b-adf8-432a-8ac1-8c544c336b2d/r:d875136d-a2ec-471e-b06a-42d82134c326(TempModule8704121b-adf8-432a-8ac1-8c544c336b2d/ConsoleModel_518804443450900)">
+            <model ref="5fb6ef13-1520-460d-9b87-7894c893af92/r:b14f7b2d-a07c-4b20-a6a9-37d9a23e4b2e(TempModule5fb6ef13-1520-460d-9b87-7894c893af92/ConsoleModel_604915415329100)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -65,11 +123,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="5JGbHHiL42Y">
-                <node concept="3balQm" id="5JGbHHiL42Z" role="aymYE" />
-                <node concept="2Clz$F" id="5JGbHHiL430" role="aymYO" />
-                <node concept="2_V_lH" id="5JGbHHiL431" role="1PhJh3">
-                  <ref role="2_V_lI" node="5JGbHHiL430" resolve="CommandHolder" />
+              <node concept="aymSD" id="4qCEx0FVVjb">
+                <node concept="3balQm" id="4qCEx0FVVjc" role="aymYE" />
+                <node concept="2Clz$F" id="4qCEx0FVVjd" role="aymYO" />
+                <node concept="2_V_lH" id="4qCEx0FVVje" role="1PhJh3">
+                  <ref role="2_V_lI" node="4qCEx0FVVjd" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -180,8 +238,35 @@
   <component name="ProjectView">
     <navigator proportions="" version="1" />
     <panes>
+      <pane id="FileSystem" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="068b75c2-91d1-44f8-9b25-cfeb6fcc24a9" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1c18981f-779a-4434-a357-2f05772a8d5e(ClassDiagramDSL)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
@@ -219,52 +304,12 @@
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="068b75c2-91d1-44f8-9b25-cfeb6fcc24a9" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ClassDiagramDSL" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1c18981f-779a-4434-a357-2f05772a8d5e(ClassDiagramDSL)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:1690804b-db9b-46c1-b4cb-59479a6a6d36(ClassDiagramDSL.editor) in IdeaFile[path: C:/Users/User/MPSProjects/ClassDiagram/languages/ClassDiagramDSL/models/ClassDiagramDSL.editor.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="068b75c2-91d1-44f8-9b25-cfeb6fcc24a9" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1c18981f-779a-4434-a357-2f05772a8d5e(ClassDiagramDSL)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -278,17 +323,12 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:ff50e1df-308e-4636-8e42-e49a8e24f016(ClassDiagramDSL.structure) in IdeaFile[path: C:/Users/User/MPSProjects/ClassDiagram/languages/ClassDiagramDSL/models/ClassDiagramDSL.structure.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="6623720671477231008" />
+              <option name="myItemId" value="r:2143bd46-ccc5-413f-be36-0810804f2bb8(ClassDiagramDSL.constraints) in IdeaFile[path: C:/Users/User/MPSProjects/ClassDiagram/languages/ClassDiagramDSL/models/ClassDiagramDSL.constraints.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
         </subPane>
       </pane>
-      <pane id="FileSystem" />
     </panes>
   </component>
   <component name="ProjectViewState">

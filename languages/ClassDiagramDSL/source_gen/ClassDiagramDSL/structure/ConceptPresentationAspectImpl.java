@@ -15,6 +15,9 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_ClassDiagramRepository;
   private ConceptPresentation props_ClassElement;
   private ConceptPresentation props_ClassElementMember;
+  private ConceptPresentation props_EnumElement;
+  private ConceptPresentation props_EnumValue;
+  private ConceptPresentation props_IRelationEntity;
   private ConceptPresentation props_InterfaceElement;
   private ConceptPresentation props_Method;
   private ConceptPresentation props_MethodArgument;
@@ -65,6 +68,26 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_ClassElementMember = cpb.create();
         }
         return props_ClassElementMember;
+      case LanguageConceptSwitch.EnumElement:
+        if (props_EnumElement == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_EnumElement = cpb.create();
+        }
+        return props_EnumElement;
+      case LanguageConceptSwitch.EnumValue:
+        if (props_EnumValue == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_EnumValue = cpb.create();
+        }
+        return props_EnumValue;
+      case LanguageConceptSwitch.IRelationEntity:
+        if (props_IRelationEntity == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          props_IRelationEntity = cpb.create();
+        }
+        return props_IRelationEntity;
       case LanguageConceptSwitch.InterfaceElement:
         if (props_InterfaceElement == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -89,7 +112,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.RelationElement:
         if (props_RelationElement == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("RelationElement");
+          cpb.rawPresentation("Relation");
           props_RelationElement = cpb.create();
         }
         return props_RelationElement;
