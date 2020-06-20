@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="1imldx28y70gpf8qw6g6wmammh0ulp6">
-  <files names="TypesystemDescriptor.java" />
+<product version="3" modelHash="-39lhyurr8wgrf2x9b4tcii4gps6xl2a">
+  <files names="TypesystemDescriptor.java:check_ClassDiagramElement_NonTypesystemRule.java" />
 </product>
 

@@ -12,7 +12,6 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_Attribute;
   private ConceptPresentation props_ClassDiagram;
   private ConceptPresentation props_ClassDiagramElement;
-  private ConceptPresentation props_ClassDiagramRepository;
   private ConceptPresentation props_ClassElement;
   private ConceptPresentation props_ClassElementMember;
   private ConceptPresentation props_EnumElement;
@@ -48,13 +47,6 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_ClassDiagramElement = cpb.create();
         }
         return props_ClassDiagramElement;
-      case LanguageConceptSwitch.ClassDiagramRepository:
-        if (props_ClassDiagramRepository == null) {
-          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("ClassDiagramRepository");
-          props_ClassDiagramRepository = cpb.create();
-        }
-        return props_ClassDiagramRepository;
       case LanguageConceptSwitch.ClassElement:
         if (props_ClassElement == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -112,7 +104,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.RelationElement:
         if (props_RelationElement == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("Relation");
+          cpb.presentationByName();
           props_RelationElement = cpb.create();
         }
         return props_RelationElement;

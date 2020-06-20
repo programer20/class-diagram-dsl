@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="9gjyqrfvthhajslzpu7yip3ghafzaqv">
-  <files names="IntentionsDescriptor.java:MakeClassAbstract_Intention.java" />
+<product version="3" modelHash="-bqjdmkxu0cr7wrxd90qk4gqt40eo65h">
+  <files names="IntentionsDescriptor.java:MakeAttributeStatic_Intention.java:MakeClassAbstract_Intention.java:MakeMethodAbstract_Intention.java" />
 </product>
 

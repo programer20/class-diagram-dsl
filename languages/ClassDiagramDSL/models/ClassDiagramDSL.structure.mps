@@ -56,22 +56,10 @@
       </concept>
     </language>
   </registry>
-  <node concept="1TIwiD" id="2wxCA3QWoDQ">
-    <property role="EcuMT" value="2891770973092153974" />
-    <property role="TrG5h" value="ClassDiagramRepository" />
-    <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="2wxCA3QWoDU" role="1TKVEi">
-      <property role="IQ2ns" value="2891770973092153978" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="classDiagrams" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="2wxCA3QWoDR" resolve="ClassDiagram" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="2wxCA3QWoDR">
     <property role="EcuMT" value="2891770973092153975" />
     <property role="TrG5h" value="ClassDiagram" />
+    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2wxCA3QWoEi" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -89,14 +77,17 @@
     <property role="TrG5h" value="ClassDiagramElement" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="2byeJLF5$L9" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5JGbHHiL43s">
     <property role="EcuMT" value="6623720671476465884" />
     <property role="TrG5h" value="ClassElement" />
     <property role="34LRSv" value="Class" />
     <ref role="1TJDcQ" node="2wxCA3QWzOE" resolve="ClassDiagramElement" />
-    <node concept="PrWs8" id="4qCEx0FWu_4" role="PzmwI">
-      <ref role="PrY4T" node="4qCEx0FWu_1" resolve="IRelationEntity" />
+    <node concept="PrWs8" id="4FMytp8TPOm" role="PzmwI">
+      <ref role="PrY4T" node="4FMytp8TLo1" resolve="IRelationEntity" />
     </node>
     <node concept="1TJgyj" id="5JGbHHiLqlr" role="1TKVEi">
       <property role="IQ2ns" value="6623720671476557147" />
@@ -121,6 +112,11 @@
     <property role="EcuMT" value="6623720671476557229" />
     <property role="TrG5h" value="Attribute" />
     <ref role="1TJDcQ" node="5JGbHHiLqlo" resolve="ClassElementMember" />
+    <node concept="1TJgyi" id="5Usq2mVFjcB" role="1TKVEl">
+      <property role="IQ2nx" value="6817438447203857191" />
+      <property role="TrG5h" value="isStatic" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyi" id="5JGbHHiLqmK" role="1TKVEl">
       <property role="IQ2nx" value="6623720671476557232" />
       <property role="TrG5h" value="visibility" />
@@ -140,8 +136,8 @@
     <property role="TrG5h" value="InterfaceElement" />
     <property role="34LRSv" value="Interface" />
     <ref role="1TJDcQ" node="2wxCA3QWzOE" resolve="ClassDiagramElement" />
-    <node concept="PrWs8" id="4qCEx0FWu_7" role="PzmwI">
-      <ref role="PrY4T" node="4qCEx0FWu_1" resolve="IRelationEntity" />
+    <node concept="PrWs8" id="4FMytp8TPOj" role="PzmwI">
+      <ref role="PrY4T" node="4FMytp8TLo1" resolve="IRelationEntity" />
     </node>
     <node concept="1TJgyj" id="5JGbHHiN7tK" role="1TKVEi">
       <property role="IQ2ns" value="6623720671477004144" />
@@ -157,6 +153,11 @@
     <ref role="1TJDcQ" node="5JGbHHiLqlo" resolve="ClassElementMember" />
     <node concept="PrWs8" id="5JGbHHiLxP4" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyi" id="5Usq2mVEqUj" role="1TKVEl">
+      <property role="IQ2nx" value="6817438447203626643" />
+      <property role="TrG5h" value="isAbstract" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="1TJgyi" id="5JGbHHiLxP6" role="1TKVEl">
       <property role="IQ2nx" value="6623720671476587846" />
@@ -242,13 +243,13 @@
       <property role="IQ2ns" value="6623720671477742634" />
       <property role="20kJfa" value="class1" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="4qCEx0FWu_1" resolve="IRelationEntity" />
+      <ref role="20lvS9" node="4FMytp8TLo1" resolve="IRelationEntity" />
     </node>
     <node concept="1TJgyj" id="5JGbHHiPVKK" role="1TKVEi">
       <property role="IQ2ns" value="6623720671477742640" />
       <property role="20kJfa" value="class2" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="4qCEx0FWu_1" resolve="IRelationEntity" />
+      <ref role="20lvS9" node="4FMytp8TLo1" resolve="IRelationEntity" />
     </node>
   </node>
   <node concept="25R3W" id="5JGbHHiNYQz">
@@ -330,13 +331,6 @@
       <property role="1L1pqM" value="^--" />
     </node>
   </node>
-  <node concept="PlHQZ" id="4qCEx0FWu_1">
-    <property role="EcuMT" value="5091506365175818561" />
-    <property role="TrG5h" value="IRelationEntity" />
-    <node concept="PrWs8" id="4qCEx0FWu_2" role="PrDN$">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="4qCEx0FXjVe">
     <property role="EcuMT" value="5091506365176037070" />
     <property role="TrG5h" value="EnumElement" />
@@ -358,6 +352,13 @@
     <property role="TrG5h" value="EnumValue" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="4qCEx0FXwZb" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="4FMytp8TLo1">
+    <property role="TrG5h" value="IRelationEntity" />
+    <property role="EcuMT" value="5091506365175818561" />
+    <node concept="PrWs8" id="4qCEx0FWu_2" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>

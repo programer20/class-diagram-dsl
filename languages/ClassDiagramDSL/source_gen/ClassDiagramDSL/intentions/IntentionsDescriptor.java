@@ -35,7 +35,21 @@ public final class IntentionsDescriptor extends AbstractIntentionAspectDescripto
         if (true) {
           // concept 
           intentions = new IntentionFactory[1];
+          intentions[0] = new MakeAttributeStatic_Intention();
+        }
+        break;
+      case 1:
+        if (true) {
+          // concept 
+          intentions = new IntentionFactory[1];
           intentions[0] = new MakeClassAbstract_Intention();
+        }
+        break;
+      case 2:
+        if (true) {
+          // concept 
+          intentions = new IntentionFactory[1];
+          intentions[0] = new MakeMethodAbstract_Intention();
         }
         break;
       default:
@@ -47,9 +61,11 @@ public final class IntentionsDescriptor extends AbstractIntentionAspectDescripto
   @NotNull
   @Override
   public Collection<IntentionFactory> getAllIntentions() {
-    IntentionFactory[] rv = new IntentionFactory[1];
+    IntentionFactory[] rv = new IntentionFactory[3];
     rv[0] = new MakeClassAbstract_Intention();
+    rv[1] = new MakeMethodAbstract_Intention();
+    rv[2] = new MakeAttributeStatic_Intention();
     return Arrays.asList(rv);
   }
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x1c18981f779a4434L, 0xa3572f05772a8d5eL, 0x5bec2edb52c440dcL)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x1c18981f779a4434L, 0xa3572f05772a8d5eL, 0x5bec2edb52c5a5adL), MetaIdFactory.conceptId(0x1c18981f779a4434L, 0xa3572f05772a8d5eL, 0x5bec2edb52c440dcL), MetaIdFactory.conceptId(0x1c18981f779a4434L, 0xa3572f05772a8d5eL, 0x5bec2edb52c61d43L)).seal();
 }

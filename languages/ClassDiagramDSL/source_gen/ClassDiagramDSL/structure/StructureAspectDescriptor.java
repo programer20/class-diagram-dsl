@@ -12,14 +12,13 @@ import jetbrains.mps.smodel.adapter.ids.SConceptId;
 import jetbrains.mps.smodel.runtime.DataTypeDescriptor;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.runtime.impl.ConceptDescriptorBuilder2;
-import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
 import jetbrains.mps.smodel.adapter.ids.PrimitiveTypeId;
+import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
 
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptAttribute = createDescriptorForAttribute();
   /*package*/ final ConceptDescriptor myConceptClassDiagram = createDescriptorForClassDiagram();
   /*package*/ final ConceptDescriptor myConceptClassDiagramElement = createDescriptorForClassDiagramElement();
-  /*package*/ final ConceptDescriptor myConceptClassDiagramRepository = createDescriptorForClassDiagramRepository();
   /*package*/ final ConceptDescriptor myConceptClassElement = createDescriptorForClassElement();
   /*package*/ final ConceptDescriptor myConceptClassElementMember = createDescriptorForClassElementMember();
   /*package*/ final ConceptDescriptor myConceptEnumElement = createDescriptorForEnumElement();
@@ -45,7 +44,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptAttribute, myConceptClassDiagram, myConceptClassDiagramElement, myConceptClassDiagramRepository, myConceptClassElement, myConceptClassElementMember, myConceptEnumElement, myConceptEnumValue, myConceptIRelationEntity, myConceptInterfaceElement, myConceptMethod, myConceptMethodArgument, myConceptRelationElement);
+    return Arrays.asList(myConceptAttribute, myConceptClassDiagram, myConceptClassDiagramElement, myConceptClassElement, myConceptClassElementMember, myConceptEnumElement, myConceptEnumValue, myConceptIRelationEntity, myConceptInterfaceElement, myConceptMethod, myConceptMethodArgument, myConceptRelationElement);
   }
 
   @Override
@@ -58,8 +57,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptClassDiagram;
       case LanguageConceptSwitch.ClassDiagramElement:
         return myConceptClassDiagramElement;
-      case LanguageConceptSwitch.ClassDiagramRepository:
-        return myConceptClassDiagramRepository;
       case LanguageConceptSwitch.ClassElement:
         return myConceptClassElement;
       case LanguageConceptSwitch.ClassElementMember:
@@ -99,13 +96,14 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:ff50e1df-308e-4636-8e42-e49a8e24f016(ClassDiagramDSL.structure)/6623720671476557229");
     b.version(2);
+    b.property("isStatic", 0x5e9c6825bbad3327L).type(PrimitiveTypeId.BOOLEAN).origin("6817438447203857191").done();
     b.property("visibility", 0x5bec2edb52c5a5b0L).type(MetaIdFactory.dataTypeId(0x1c18981f779a4434L, 0xa3572f05772a8d5eL, 0x5bec2edb52ccec41L)).origin("6623720671476557232").done();
     b.property("type", 0x5bec2edb52cee930L).type(PrimitiveTypeId.STRING).origin("6623720671477164336").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForClassDiagram() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("ClassDiagramDSL", "ClassDiagram", 0x1c18981f779a4434L, 0xa3572f05772a8d5eL, 0x2821a260f6f18a77L);
-    b.class_(false, false, false);
+    b.class_(false, false, true);
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:ff50e1df-308e-4636-8e42-e49a8e24f016(ClassDiagramDSL.structure)/2891770973092153975");
     b.version(2);
@@ -115,16 +113,9 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForClassDiagramElement() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("ClassDiagramDSL", "ClassDiagramElement", 0x1c18981f779a4434L, 0xa3572f05772a8d5eL, 0x2821a260f6f23d2aL);
     b.class_(false, true, false);
+    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:ff50e1df-308e-4636-8e42-e49a8e24f016(ClassDiagramDSL.structure)/2891770973092199722");
     b.version(2);
-    return b.create();
-  }
-  private static ConceptDescriptor createDescriptorForClassDiagramRepository() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("ClassDiagramDSL", "ClassDiagramRepository", 0x1c18981f779a4434L, 0xa3572f05772a8d5eL, 0x2821a260f6f18a76L);
-    b.class_(false, false, true);
-    b.origin("r:ff50e1df-308e-4636-8e42-e49a8e24f016(ClassDiagramDSL.structure)/2891770973092153974");
-    b.version(2);
-    b.aggregate("classDiagrams", 0x2821a260f6f18a7aL).target(0x1c18981f779a4434L, 0xa3572f05772a8d5eL, 0x2821a260f6f18a77L).optional(true).ordered(true).multiple(true).origin("2891770973092153978").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForClassElement() {
@@ -169,7 +160,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("ClassDiagramDSL", "IRelationEntity", 0x1c18981f779a4434L, 0xa3572f05772a8d5eL, 0x46a8aa102bf1e941L);
     b.interface_();
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
-    b.origin("r:ff50e1df-308e-4636-8e42-e49a8e24f016(ClassDiagramDSL.structure)/5091506365175818561");
+    b.origin("r:ff50e1df-308e-4636-8e42-e49a8e24f016(ClassDiagramDSL.structure)/5400530456609756673");
     b.version(2);
     return b.create();
   }
@@ -191,6 +182,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:ff50e1df-308e-4636-8e42-e49a8e24f016(ClassDiagramDSL.structure)/6623720671476587843");
     b.version(2);
+    b.property("isAbstract", 0x5e9c6825bba9ae93L).type(PrimitiveTypeId.BOOLEAN).origin("6817438447203626643").done();
     b.property("visibility", 0x5bec2edb52c61d46L).type(MetaIdFactory.dataTypeId(0x1c18981f779a4434L, 0xa3572f05772a8d5eL, 0x5bec2edb52ccec41L)).origin("6623720671476587846").done();
     b.property("returnType", 0x5bec2edb52c61d48L).type(PrimitiveTypeId.STRING).origin("6623720671476587848").done();
     b.aggregate("methodArguments", 0x5bec2edb52c673b7L).target(0x1c18981f779a4434L, 0xa3572f05772a8d5eL, 0x5bec2edb52c6738eL).optional(true).ordered(true).multiple(true).origin("6623720671476609975").done();

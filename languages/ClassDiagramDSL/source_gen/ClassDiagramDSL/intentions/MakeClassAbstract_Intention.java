@@ -13,9 +13,13 @@ import jetbrains.mps.openapi.editor.EditorContext;
 import java.util.Collections;
 import jetbrains.mps.intentions.AbstractIntentionExecutable;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.internal.collections.runtime.IVisitor;
 import jetbrains.mps.openapi.intentions.IntentionDescriptor;
 import org.jetbrains.mps.openapi.language.SProperty;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import org.jetbrains.mps.openapi.language.SConcept;
 
 public final class MakeClassAbstract_Intention extends AbstractIntentionDescriptor implements IntentionFactory {
   private Collection<IntentionExecutable> myCachedExecutable;
@@ -45,11 +49,19 @@ public final class MakeClassAbstract_Intention extends AbstractIntentionDescript
     }
     @Override
     public String getDescription(final SNode node, final EditorContext editorContext) {
-      return "Make class " + ((SPropertyOperations.getBoolean(node, PROPS.isAbstract$Hrft) ? "non " : " ")) + "abstract";
+      return "Make class " + ((SPropertyOperations.getBoolean(node, PROPS.isAbstract$Hrft) ? "non " : "")) + "abstract";
     }
     @Override
     public void execute(final SNode node, final EditorContext editorContext) {
       SPropertyOperations.set(node, PROPS.isAbstract$Hrft, !(SPropertyOperations.getBoolean(node, PROPS.isAbstract$Hrft)));
+      ListSequence.fromList(SNodeOperations.getChildren(node)).visitAll(new IVisitor<SNode>() {
+        public void visit(SNode it) {
+          if (SNodeOperations.isInstanceOf(it, CONCEPTS.Method$9B)) {
+            SNode method = (SNode) it;
+            SPropertyOperations.set(method, PROPS.isAbstract$Bfrh, false);
+          }
+        }
+      });
     }
     @Override
     public IntentionDescriptor getDescriptor() {
@@ -59,5 +71,10 @@ public final class MakeClassAbstract_Intention extends AbstractIntentionDescript
 
   private static final class PROPS {
     /*package*/ static final SProperty isAbstract$Hrft = MetaAdapterFactory.getProperty(0x1c18981f779a4434L, 0xa3572f05772a8d5eL, 0x5bec2edb52c440dcL, 0x46a8aa102bfb8527L, "isAbstract");
+    /*package*/ static final SProperty isAbstract$Bfrh = MetaAdapterFactory.getProperty(0x1c18981f779a4434L, 0xa3572f05772a8d5eL, 0x5bec2edb52c61d43L, 0x5e9c6825bba9ae93L, "isAbstract");
+  }
+
+  private static final class CONCEPTS {
+    /*package*/ static final SConcept Method$9B = MetaAdapterFactory.getConcept(0x1c18981f779a4434L, 0xa3572f05772a8d5eL, 0x5bec2edb52c61d43L, "ClassDiagramDSL.structure.Method");
   }
 }

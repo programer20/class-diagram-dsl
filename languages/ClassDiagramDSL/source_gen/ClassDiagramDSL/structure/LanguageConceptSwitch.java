@@ -12,23 +12,21 @@ public final class LanguageConceptSwitch {
   public static final int Attribute = 0;
   public static final int ClassDiagram = 1;
   public static final int ClassDiagramElement = 2;
-  public static final int ClassDiagramRepository = 3;
-  public static final int ClassElement = 4;
-  public static final int ClassElementMember = 5;
-  public static final int EnumElement = 6;
-  public static final int EnumValue = 7;
-  public static final int IRelationEntity = 8;
-  public static final int InterfaceElement = 9;
-  public static final int Method = 10;
-  public static final int MethodArgument = 11;
-  public static final int RelationElement = 12;
+  public static final int ClassElement = 3;
+  public static final int ClassElementMember = 4;
+  public static final int EnumElement = 5;
+  public static final int EnumValue = 6;
+  public static final int IRelationEntity = 7;
+  public static final int InterfaceElement = 8;
+  public static final int Method = 9;
+  public static final int MethodArgument = 10;
+  public static final int RelationElement = 11;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x1c18981f779a4434L, 0xa3572f05772a8d5eL);
     builder.put(0x5bec2edb52c5a5adL, Attribute);
     builder.put(0x2821a260f6f18a77L, ClassDiagram);
     builder.put(0x2821a260f6f23d2aL, ClassDiagramElement);
-    builder.put(0x2821a260f6f18a76L, ClassDiagramRepository);
     builder.put(0x5bec2edb52c440dcL, ClassElement);
     builder.put(0x5bec2edb52c5a558L, ClassElementMember);
     builder.put(0x46a8aa102bf53eceL, EnumElement);
